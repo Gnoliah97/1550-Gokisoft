@@ -1,0 +1,43 @@
+body{
+	background-color: rgb(255,255,240);
+	margin-left: 20%;	
+}
+#main{
+	width: 400px;
+	background-color: #DDFFEE;
+	margin: 0 10px 0 10px;
+	position: relative;
+
+}
+#text_help{
+	position: absolute;
+	color: blue;
+	right: 20px;
+	top: 10px;
+	cursor: help;
+	font-size: 30px;
+}
+textarea{
+	scrollbar-3dlight-color: #C0C0C0;
+	scrollbar-shadow-color: silver;
+	scrollbar-arrow-color: black;
+	scrollbar-face-color: gray;
+}
+#help{
+	position: absolute;
+	width: 500px;
+	height: 420px;
+	top: 10px;
+	background-color: #cfc;
+	marrin: 0 10px 0 10px;
+	border: #E4E7E7 2px solid;
+	color: #303030 ;	
+}
+.EmailEditor{
+	background-color:#FFFFDD ;
+}
+#Message{
+	height: 100px;
+	width: 300px;
+	overflow: auto;
+}
